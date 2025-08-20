@@ -57,10 +57,6 @@ const Navigation = () => {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
               </button>
             ))}
-            <Button variant="hero" size="sm">
-              <ExternalLink className="w-4 h-4 mr-2" />
-              Resume
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -87,12 +83,6 @@ const Navigation = () => {
                   {item.label}
                 </button>
               ))}
-              <div className="px-4 pt-2">
-                <Button variant="hero" size="sm" className="w-full">
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  Resume
-                </Button>
-              </div>
             </div>
           </div>
         )}

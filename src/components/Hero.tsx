@@ -47,16 +47,11 @@ const Hero = () => {
               size="lg" 
               className="group"
               onClick={() => {
-                const link = document.createElement('a');
-                link.href = '/Ahmed_Jayousi_CV.pdf';
-                link.download = 'Ahmed_Jayousi_CV.pdf';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
+                document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
               }}
             >
-              <Download className="w-4 h-4 mr-2 group-hover:animate-bounce" />
-              Download CV
+              <ExternalLink className="w-4 h-4 mr-2 group-hover:rotate-45 transition-transform" />
+              Get In Touch
             </Button>
             <Button variant="outline-hero" size="lg" className="group">
               <ExternalLink className="w-4 h-4 mr-2 group-hover:rotate-45 transition-transform" />
