@@ -42,7 +42,19 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="lg" className="group">
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="group"
+              onClick={() => {
+                const link = document.createElement('a');
+                link.href = '/Ahmed_Jayousi_CV.pdf';
+                link.download = 'Ahmed_Jayousi_CV.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
+            >
               <Download className="w-4 h-4 mr-2 group-hover:animate-bounce" />
               Download CV
             </Button>
