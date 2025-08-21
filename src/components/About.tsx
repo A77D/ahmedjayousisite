@@ -54,6 +54,30 @@ const About = () => {
                 <Globe className="w-4 h-4 text-primary" />
                 <span className="text-sm text-primary">Adaptable</span>
               </div>
+              <div className="flex items-center gap-2 bg-accent/10 border border-accent/20 rounded-full px-4 py-2">
+                <Code className="w-4 h-4 text-accent" />
+                <span className="text-sm text-accent">Curious</span>
+              </div>
+              <div className="flex items-center gap-2 bg-success/10 border border-success/20 rounded-full px-4 py-2">
+                <Zap className="w-4 h-4 text-success" />
+                <span className="text-sm text-success">Motivated</span>
+              </div>
+              <div className="flex items-center gap-2 bg-warning/10 border border-warning/20 rounded-full px-4 py-2">
+                <Globe className="w-4 h-4 text-warning" />
+                <span className="text-sm text-warning">Analytical</span>
+              </div>
+              <div className="flex items-center gap-2 bg-info/10 border border-info/20 rounded-full px-4 py-2">
+                <Code className="w-4 h-4 text-info" />
+                <span className="text-sm text-info">Resilient</span>
+              </div>
+              <div className="flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2">
+                <Zap className="w-4 h-4 text-primary" />
+                <span className="text-sm text-primary">Open-Minded</span>
+              </div>
+              <div className="flex items-center gap-2 bg-accent/10 border border-accent/20 rounded-full px-4 py-2">
+                <Globe className="w-4 h-4 text-accent" />
+                <span className="text-sm text-accent">Goal-Driven</span>
+              </div>
             </div>
           </div>
 
