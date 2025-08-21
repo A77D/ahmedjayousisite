@@ -9,7 +9,15 @@ import {
   Users,
   Lightbulb,
   Zap,
-  Languages
+  Languages,
+  Palette,
+  Eye,
+  Target,
+  Search,
+  TrendingUp,
+  BarChart3,
+  Shield,
+  Heart
 } from "lucide-react";
 
 const Skills = () => {
@@ -44,7 +52,15 @@ const Skills = () => {
     { name: "Team Collaboration", icon: <Users className="w-5 h-5" /> },
     { name: "Clear Communication", icon: <MessageCircle className="w-5 h-5" /> },
     { name: "Problem Solving", icon: <Lightbulb className="w-5 h-5" /> },
-    { name: "Fast Learning", icon: <Zap className="w-5 h-5" /> }
+    { name: "Fast Learning", icon: <Zap className="w-5 h-5" /> },
+    { name: "Creative Thinking", icon: <Palette className="w-5 h-5" /> },
+    { name: "Detail-Oriented", icon: <Eye className="w-5 h-5" /> },
+    { name: "Adaptable", icon: <Globe className="w-5 h-5" /> },
+    { name: "Curious", icon: <Search className="w-5 h-5" /> },
+    { name: "Motivated", icon: <TrendingUp className="w-5 h-5" /> },
+    { name: "Analytical", icon: <BarChart3 className="w-5 h-5" /> },
+    { name: "Resilient", icon: <Shield className="w-5 h-5" /> },
+    { name: "Goal-Driven", icon: <Target className="w-5 h-5" /> }
   ];
 
   const languages = [
@@ -94,7 +110,7 @@ const Skills = () => {
               <Users className="w-6 h-6 text-primary" />
               Soft Skills
             </h3>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
               {softSkills.map((skill, index) => (
                 <div key={index} className="flex items-center gap-3 p-3 rounded-lg bg-surface/50 hover:bg-primary/5 transition-colors">
                   <div className="text-primary">
