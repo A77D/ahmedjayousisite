@@ -1,50 +1,33 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { 
-  Mail, 
-  Phone, 
-  Linkedin, 
-  Github, 
-  ExternalLink,
-  MapPin,
-  Send,
-  Calendar
-} from "lucide-react";
-
+import { Mail, Phone, Linkedin, Github, ExternalLink, MapPin, Send, Calendar } from "lucide-react";
 const Contact = () => {
-  const contactLinks = [
-    {
-      icon: <Mail className="w-5 h-5" />,
-      label: "Email",
-      value: "ahmad20jayyousi@gmail.com",
-      href: "mailto:ahmad20jayyousi@gmail.com",
-      color: "primary"
-    },
-    {
-      icon: <Phone className="w-5 h-5" />,
-      label: "Phone",
-      value: "+970 597 320 456",
-      href: "tel:+970597320456",
-      color: "success"
-    },
-    {
-      icon: <Linkedin className="w-5 h-5" />,
-      label: "LinkedIn",
-      value: "a7madjay2k",
-      href: "https://www.linkedin.com/in/a7madjay2k/",
-      color: "accent"
-    },
-    {
-      icon: <Github className="w-5 h-5" />,
-      label: "GitHub",
-      value: "A77D",
-      href: "https://github.com/A77D",
-      color: "muted-foreground"
-    }
-  ];
-
-  return (
-    <section className="py-20 px-6" id="contact">
+  const contactLinks = [{
+    icon: <Mail className="w-5 h-5" />,
+    label: "Email",
+    value: "ahmad20jayyousi@gmail.com",
+    href: "mailto:ahmad20jayyousi@gmail.com",
+    color: "primary"
+  }, {
+    icon: <Phone className="w-5 h-5" />,
+    label: "Phone",
+    value: "+970 597 320 456",
+    href: "tel:+970597320456",
+    color: "success"
+  }, {
+    icon: <Linkedin className="w-5 h-5" />,
+    label: "LinkedIn",
+    value: "a7madjay2k",
+    href: "https://www.linkedin.com/in/a7madjay2k/",
+    color: "accent"
+  }, {
+    icon: <Github className="w-5 h-5" />,
+    label: "GitHub",
+    value: "A77D",
+    href: "https://github.com/A77D",
+    color: "muted-foreground"
+  }];
+  return <section className="py-20 px-6" id="contact">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
@@ -66,14 +49,7 @@ const Contact = () => {
             </div>
             
             <div className="space-y-4">
-              {contactLinks.map((contact, index) => (
-                <a
-                  key={index}
-                  href={contact.href}
-                  target={contact.href.startsWith('http') ? '_blank' : undefined}
-                  rel={contact.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                  className="flex items-center gap-4 p-3 rounded-lg bg-surface/30 hover:bg-surface/50 transition-all duration-300 group"
-                >
+              {contactLinks.map((contact, index) => <a key={index} href={contact.href} target={contact.href.startsWith('http') ? '_blank' : undefined} rel={contact.href.startsWith('http') ? 'noopener noreferrer' : undefined} className="flex items-center gap-4 p-3 rounded-lg bg-surface/30 hover:bg-surface/50 transition-all duration-300 group">
                   <div className={`w-10 h-10 bg-${contact.color}/10 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform`}>
                     <div className={`text-${contact.color}`}>
                       {contact.icon}
@@ -84,8 +60,7 @@ const Contact = () => {
                     <p className="text-sm text-muted-foreground">{contact.value}</p>
                   </div>
                   <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
-                </a>
-              ))}
+                </a>)}
             </div>
 
             <div className="mt-8 pt-6 border-t border-border">
@@ -117,10 +92,7 @@ const Contact = () => {
               </div>
 
               <div className="space-y-3">
-                <Button variant="hero" className="w-full" size="lg">
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  View All Links
-                </Button>
+                
                 <Button variant="outline-hero" className="w-full" size="lg">
                   <Mail className="w-4 h-4 mr-2" />
                   Send Message
@@ -149,8 +121,6 @@ const Contact = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
