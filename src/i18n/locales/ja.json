@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "about": "私について",
+    "skills": "スキル", 
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "location": "トゥルカレム、パレスチナ",
+    "name": "Ahmed Jayousi",
+    "title": "フロントエンド＆モバイル開発者",
+    "description": "ユーザーフレンドリーなアプリケーションと革新的なデジタルソリューションの作成に情熱を注いでいます。Flutter、JavaScript、モバイル開発を専門としています。",
+    "getInTouch": "お問い合わせ",
+    "viewProjects": "プロジェクトを見る"
+  },
+  "about": {
+    "title": "私について",
+    "subtitle": "イノベーションへの情熱と技術的卓越性へのコミットメントを持つ新卒者",
+    "education": "教育",
+    "additionalTraining": "追加トレーニング",
+    "bachelorDegree": "応用コンピューティング学士",
+    "university": "パレスチナ技術大学 – カドゥーリ (PTUK)",
+    "trainingDetails": "PHPコース • Python AI/ML • 複数のオンラインコース",
+    "careerAspiration": "キャリア抱負",
+    "aspirationText": "熟練したプログラマーになり、技術的卓越性とユーザー中心のデザインを組み合わせた高品質のアプリケーションと創造的なソリューションを提供すること。",
+    "description1": "プログラミング言語とソフトウェア概念の強固な基盤を持つ応用コンピューティングの新卒者。",
+    "description2": "ユーザーフレンドリーなアプリケーションと革新的なデジタルソリューションに焦点を当て、モバイルプログラミングとゲーム開発に情熱を注いでいます。",
+    "description3": "生涯学習に熱心で、技術発展の最前線に立ち続け、革新的なチームに貢献し、テック業界で意義のある影響を与えることを目指しています。",
+    "softSkills": {
+      "problemSolver": "問題解決者",
+      "fastLearner": "素早い学習者",
+      "teamPlayer": "チームプレーヤー",
+      "creativeThinker": "創造的思考者",
+      "detailOriented": "細部への注意",
+      "adaptable": "適応性",
+      "curious": "好奇心旺盛",
+      "motivated": "意欲的",
+      "analytical": "分析的",
+      "resilient": "回復力",
+      "openMinded": "開放的",
+      "goalDriven": "目標志向"
+    }
+  },
+  "skills": {
+    "title": "スキルと専門知識",
+    "subtitle": "私の技術スキルと能力の包括的な概要",
+    "frontend": "フロントエンド",
+    "backend": "バックエンド",
+    "mobile": "モバイル",
+    "tools": "ツール＆その他",
+    "softSkillsTitle": "ソフトスキル",
+    "languagesTitle": "言語",
+    "nativeLevel": "ネイティブ",
+    "fluentLevel": "流暢",
+    "intermediateLevel": "中級",
+    "basicLevel": "基礎"
+  },
+  "contact": {
+    "title": "つながりましょう",
+    "subtitle": "コラボレーションや機会について話し合う準備はできていますか？ぜひお聞かせください",
+    "getInTouch": "お問い合わせ",
+    "quickActions": "クイックアクション",
+    "lookingFor": "以下の機会を探しています：",
+    "frontendDev": "フロントエンド開発",
+    "mobileDev": "モバイルアプリ開発", 
+    "fullStackDev": "フルスタック開発",
+    "gameDev": "ゲーム開発",
+    "sendMessage": "メッセージを送信",
+    "responseTime": "応答時間：通常24時間以内",
+    "socialLinks": "私のすべてのソーシャルリンクとプロジェクトを一箇所で見つけてください",
+    "visitLinktree": "私の Linktree を訪問",
+    "email": "メール",
+    "phone": "電話", 
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }
+}

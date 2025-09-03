@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, Linkedin, Github, ExternalLink, MapPin, Send, Calendar } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 const Contact = () => {
   const contactLinks = [{
     icon: <Mail className="w-5 h-5" />,

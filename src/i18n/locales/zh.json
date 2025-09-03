@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "about": "关于我",
+    "skills": "技能", 
+    "contact": "联系"
+  },
+  "hero": {
+    "location": "图勒卡雷姆，巴勒斯坦",
+    "name": "Ahmed Jayousi",
+    "title": "前端与移动端开发者",
+    "description": "热衷于创建用户友好的应用程序和创新的数字解决方案。专注于Flutter、JavaScript和移动端开发。",
+    "getInTouch": "联系我",
+    "viewProjects": "查看项目"
+  },
+  "about": {
+    "title": "关于我",
+    "subtitle": "应届毕业生，对创新充满热情，致力于技术卓越",
+    "education": "教育背景",
+    "additionalTraining": "额外培训",
+    "bachelorDegree": "应用计算学学士",
+    "university": "巴勒斯坦卡杜里技术大学 (PTUK)",
+    "trainingDetails": "PHP课程 • Python AI/ML • 多个在线课程",
+    "careerAspiration": "职业抱负",
+    "aspirationText": "成为一名熟练的程序员，提供高质量的应用程序和创意解决方案，将技术卓越与以用户为中心的设计相结合。",
+    "description1": "应用计算专业应届毕业生，在编程语言和软件概念方面有扎实的基础。",
+    "description2": "我对移动编程和游戏开发充满热情，专注于用户友好的应用程序和创新的数字解决方案。",
+    "description3": "热衷于终身学习，站在技术发展的前沿，希望为创新团队做出贡献，在科技行业产生有意义的影响。",
+    "softSkills": {
+      "problemSolver": "问题解决者",
+      "fastLearner": "快速学习者",
+      "teamPlayer": "团队合作者",
+      "creativeThinker": "创意思维者",
+      "detailOriented": "注重细节",
+      "adaptable": "适应性强",
+      "curious": "好奇心强",
+      "motivated": "积极主动",
+      "analytical": "善于分析",
+      "resilient": "坚韧不拔",
+      "openMinded": "思想开放",
+      "goalDriven": "目标导向"
+    }
+  },
+  "skills": {
+    "title": "技能与专长",
+    "subtitle": "我的技术技能和能力的全面概述",
+    "frontend": "前端",
+    "backend": "后端",
+    "mobile": "移动端",
+    "tools": "工具与其他",
+    "softSkillsTitle": "软技能",
+    "languagesTitle": "语言",
+    "nativeLevel": "母语",
+    "fluentLevel": "流利",
+    "intermediateLevel": "中级",
+    "basicLevel": "基础"
+  },
+  "contact": {
+    "title": "让我们联系",
+    "subtitle": "准备合作或讨论机会？我很想听到您的声音",
+    "getInTouch": "联系我",
+    "quickActions": "快速操作",
+    "lookingFor": "寻找以下机会：",
+    "frontendDev": "前端开发",
+    "mobileDev": "移动应用开发", 
+    "fullStackDev": "全栈开发",
+    "gameDev": "游戏开发",
+    "sendMessage": "发送消息",
+    "responseTime": "响应时间：通常在24小时内",
+    "socialLinks": "在一个地方找到我所有的社交链接和项目",
+    "visitLinktree": "访问我的 Linktree",
+    "email": "邮箱",
+    "phone": "电话", 
+    "linkedin": "领英",
+    "github": "GitHub"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "about": "소개",
+    "skills": "기술", 
+    "contact": "연락"
+  },
+  "hero": {
+    "location": "툴카렘, 팔레스타인",
+    "name": "Ahmed Jayousi",
+    "title": "프론트엔드 & 모바일 개발자",
+    "description": "사용자 친화적인 애플리케이션과 혁신적인 디지털 솔루션 개발에 열정을 가지고 있습니다. Flutter, JavaScript, 모바일 개발을 전문으로 합니다.",
+    "getInTouch": "연락하기",
+    "viewProjects": "프로젝트 보기"
+  },
+  "about": {
+    "title": "소개",
+    "subtitle": "혁신에 대한 열정과 기술적 우수성에 대한 헌신을 가진 신입 졸업생",
+    "education": "교육",
+    "additionalTraining": "추가 교육",
+    "bachelorDegree": "응용 컴퓨팅 학사",
+    "university": "팔레스타인 기술대학교 – 카두리 (PTUK)",
+    "trainingDetails": "PHP 과정 • Python AI/ML • 여러 온라인 과정",
+    "careerAspiration": "경력 목표",
+    "aspirationText": "기술적 우수성과 사용자 중심 설계를 결합한 고품질 애플리케이션과 창의적인 솔루션을 제공하는 숙련된 프로그래머가 되는 것입니다.",
+    "description1": "프로그래밍 언어와 소프트웨어 개념에 대한 탄탄한 기초를 가진 응용 컴퓨팅 신입 졸업생입니다.",
+    "description2": "사용자 친화적인 애플리케이션과 혁신적인 디지털 솔루션에 중점을 둔 모바일 프로그래밍과 게임 개발에 열정을 가지고 있습니다.",
+    "description3": "평생 학습에 열정적이며 기술 발전의 최전선에 서서 혁신적인 팀에 기여하고 기술 업계에서 의미 있는 영향을 미치고자 합니다.",
+    "softSkills": {
+      "problemSolver": "문제 해결사",
+      "fastLearner": "빠른 학습자",
+      "teamPlayer": "팀플레이어",
+      "creativeThinker": "창의적 사고자",
+      "detailOriented": "세심함",
+      "adaptable": "적응력",
+      "curious": "호기심",
+      "motivated": "의욕적",
+      "analytical": "분석적",
+      "resilient": "회복력",
+      "openMinded": "열린 마음",
+      "goalDriven": "목표 지향적"
+    }
+  },
+  "skills": {
+    "title": "기술 및 전문성",
+    "subtitle": "제 기술적 스킬과 능력에 대한 포괄적인 개요",
+    "frontend": "프론트엔드",
+    "backend": "백엔드",
+    "mobile": "모바일",
+    "tools": "도구 및 기타",
+    "softSkillsTitle": "소프트 스킬",
+    "languagesTitle": "언어",
+    "nativeLevel": "모국어",
+    "fluentLevel": "유창함",
+    "intermediateLevel": "중급",
+    "basicLevel": "기초"
+  },
+  "contact": {
+    "title": "연결하기",
+    "subtitle": "협업하거나 기회를 논의할 준비가 되셨나요? 연락 주세요",
+    "getInTouch": "연락하기",
+    "quickActions": "빠른 액션",
+    "lookingFor": "다음 분야의 기회를 찾고 있습니다:",
+    "frontendDev": "프론트엔드 개발",
+    "mobileDev": "모바일 앱 개발", 
+    "fullStackDev": "풀스택 개발",
+    "gameDev": "게임 개발",
+    "sendMessage": "메시지 보내기",
+    "responseTime": "응답 시간: 일반적으로 24시간 이내",
+    "socialLinks": "모든 소셜 링크와 프로젝트를 한 곳에서 찾아보세요",
+    "visitLinktree": "내 Linktree 방문",
+    "email": "이메일",
+    "phone": "전화", 
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }
+}

@@ -19,8 +19,11 @@ import {
   Shield,
   Heart
 } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
+  const { t } = useTranslation();
+  
   const skillCategories = [
     {
       title: "Frontend Development",
@@ -74,10 +77,10 @@ const Skills = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Skills & Expertise
+            {t('skills.title')}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A comprehensive toolkit for modern software development
+            {t('skills.subtitle')}
           </p>
         </div>
 

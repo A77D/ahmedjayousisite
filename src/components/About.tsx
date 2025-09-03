@@ -1,16 +1,19 @@
 import { Card } from "@/components/ui/card";
 import { GraduationCap, Code, Globe, Zap } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const { t } = useTranslation();
+  
   return (
     <section className="py-20 px-6" id="about">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            About Me
+            {t('about.title')}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Recent graduate with a passion for innovation and a commitment to technical excellence
+            {t('about.subtitle')}
           </p>
         </div>
 
@@ -19,64 +22,64 @@ const About = () => {
           <div className="space-y-6">
             <div className="prose prose-lg text-foreground/90">
               <p className="text-base leading-relaxed mb-4">
-                Recent graduate in <span className="text-primary font-medium">Applied Computing</span> with a strong foundation in programming languages and software concepts.
+                {t('about.description1')}
               </p>
               <p className="text-base leading-relaxed mb-4">
-                I'm passionate about <span className="text-primary font-medium">mobile programming</span> and <span className="text-primary font-medium">game development</span>, with a focus on user-friendly applications and innovative digital solutions.
+                {t('about.description2')}
               </p>
               <p className="text-base leading-relaxed mb-6">
-                Enthusiastic about lifelong learning and staying at the forefront of technological advancements, looking to contribute to innovative teams and make a meaningful impact in the tech industry.
+                {t('about.description3')}
               </p>
             </div>
 
             <div className="flex flex-wrap gap-4">
               <div className="flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2">
                 <Code className="w-4 h-4 text-primary" />
-                <span className="text-sm text-primary">Problem Solver</span>
+                <span className="text-sm text-primary">{t('about.softSkills.problemSolver')}</span>
               </div>
               <div className="flex items-center gap-2 bg-accent/10 border border-accent/20 rounded-full px-4 py-2">
                 <Zap className="w-4 h-4 text-accent" />
-                <span className="text-sm text-accent">Fast Learner</span>
+                <span className="text-sm text-accent">{t('about.softSkills.fastLearner')}</span>
               </div>
               <div className="flex items-center gap-2 bg-success/10 border border-success/20 rounded-full px-4 py-2">
                 <Globe className="w-4 h-4 text-success" />
-                <span className="text-sm text-success">Team Player</span>
+                <span className="text-sm text-success">{t('about.softSkills.teamPlayer')}</span>
               </div>
               <div className="flex items-center gap-2 bg-warning/10 border border-warning/20 rounded-full px-4 py-2">
                 <Code className="w-4 h-4 text-warning" />
-                <span className="text-sm text-warning">Creative Thinker</span>
+                <span className="text-sm text-warning">{t('about.softSkills.creativeThinker')}</span>
               </div>
               <div className="flex items-center gap-2 bg-info/10 border border-info/20 rounded-full px-4 py-2">
                 <Zap className="w-4 h-4 text-info" />
-                <span className="text-sm text-info">Detail-Oriented</span>
+                <span className="text-sm text-info">{t('about.softSkills.detailOriented')}</span>
               </div>
               <div className="flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2">
                 <Globe className="w-4 h-4 text-primary" />
-                <span className="text-sm text-primary">Adaptable</span>
+                <span className="text-sm text-primary">{t('about.softSkills.adaptable')}</span>
               </div>
               <div className="flex items-center gap-2 bg-accent/10 border border-accent/20 rounded-full px-4 py-2">
                 <Code className="w-4 h-4 text-accent" />
-                <span className="text-sm text-accent">Curious</span>
+                <span className="text-sm text-accent">{t('about.softSkills.curious')}</span>
               </div>
               <div className="flex items-center gap-2 bg-success/10 border border-success/20 rounded-full px-4 py-2">
                 <Zap className="w-4 h-4 text-success" />
-                <span className="text-sm text-success">Motivated</span>
+                <span className="text-sm text-success">{t('about.softSkills.motivated')}</span>
               </div>
               <div className="flex items-center gap-2 bg-warning/10 border border-warning/20 rounded-full px-4 py-2">
                 <Globe className="w-4 h-4 text-warning" />
-                <span className="text-sm text-warning">Analytical</span>
+                <span className="text-sm text-warning">{t('about.softSkills.analytical')}</span>
               </div>
               <div className="flex items-center gap-2 bg-info/10 border border-info/20 rounded-full px-4 py-2">
                 <Code className="w-4 h-4 text-info" />
-                <span className="text-sm text-info">Resilient</span>
+                <span className="text-sm text-info">{t('about.softSkills.resilient')}</span>
               </div>
               <div className="flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2">
                 <Zap className="w-4 h-4 text-primary" />
-                <span className="text-sm text-primary">Open-Minded</span>
+                <span className="text-sm text-primary">{t('about.softSkills.openMinded')}</span>
               </div>
               <div className="flex items-center gap-2 bg-accent/10 border border-accent/20 rounded-full px-4 py-2">
                 <Globe className="w-4 h-4 text-accent" />
-                <span className="text-sm text-accent">Goal-Driven</span>
+                <span className="text-sm text-accent">{t('about.softSkills.goalDriven')}</span>
               </div>
             </div>
           </div>
@@ -89,15 +92,15 @@ const About = () => {
                   <GraduationCap className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-2">Education</h3>
+                  <h3 className="font-semibold text-lg mb-2">{t('about.education')}</h3>
                   <div className="space-y-3 text-sm text-muted-foreground">
                     <div>
-                      <p className="font-medium text-foreground">Bachelor's in Applied Computing</p>
-                      <p>Palestine Technical University – Kadoorie (PTUK)</p>
+                      <p className="font-medium text-foreground">{t('about.bachelorDegree')}</p>
+                      <p>{t('about.university')}</p>
                     </div>
                     <div>
-                      <p className="font-medium text-foreground">Additional Training</p>
-                      <p>PHP Course • Python AI/ML • Multiple Online Courses</p>
+                      <p className="font-medium text-foreground">{t('about.additionalTraining')}</p>
+                      <p>{t('about.trainingDetails')}</p>
                     </div>
                   </div>
                 </div>
@@ -106,12 +109,9 @@ const About = () => {
 
             <Card className="p-6 bg-gradient-card border border-card-border shadow-card">
               <div className="text-center">
-                <h3 className="font-semibold text-lg mb-3 text-primary">Career Aspiration</h3>
+                <h3 className="font-semibold text-lg mb-3 text-primary">{t('about.careerAspiration')}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  To become a <span className="text-foreground font-medium">proficient programmer</span>, 
-                  delivering high-quality applications and creative solutions that combine 
-                  <span className="text-primary font-medium"> technical excellence</span> with 
-                  <span className="text-primary font-medium"> user-centric design</span>.
+                  {t('about.aspirationText')}
                 </p>
               </div>
             </Card>

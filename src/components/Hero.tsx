@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Download, MapPin } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 import heroImage from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
+  const { t } = useTranslation();
+  
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
@@ -21,23 +24,20 @@ const Hero = () => {
           {/* Greeting */}
           <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-8">
             <MapPin className="w-4 h-4 text-primary" />
-            <span className="text-sm text-primary">Tulkarem, Palestine</span>
+            <span className="text-sm text-primary">{t('hero.location')}</span>
           </div>
 
           {/* Name & Title */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent leading-tight">
-            Ahmed Jayousi
+            {t('hero.name')}
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-            Frontend & Mobile Developer
+            {t('hero.title')}
           </p>
           
           <p className="text-lg text-foreground/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Passionate about creating user-friendly applications and innovative digital solutions. 
-            Specialized in <span className="text-primary font-medium">Flutter</span>, 
-            <span className="text-primary font-medium"> JavaScript</span>, and 
-            <span className="text-primary font-medium"> mobile development</span>.
+            {t('hero.description')}
           </p>
 
           {/* CTA Buttons */}
@@ -51,11 +51,11 @@ const Hero = () => {
               }}
             >
               <ExternalLink className="w-4 h-4 mr-2 group-hover:rotate-45 transition-transform" />
-              Get In Touch
+              {t('hero.getInTouch')}
             </Button>
             <Button variant="outline-hero" size="lg" className="group">
               <ExternalLink className="w-4 h-4 mr-2 group-hover:rotate-45 transition-transform" />
-              View Projects
+              {t('hero.viewProjects')}
             </Button>
           </div>
 

@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "about": "Chi sono",
+    "skills": "Competenze", 
+    "contact": "Contatti"
+  },
+  "hero": {
+    "location": "Tulkarem, Palestina",
+    "name": "Ahmed Jayousi",
+    "title": "Sviluppatore Frontend & Mobile",
+    "description": "Appassionato di creare applicazioni user-friendly e soluzioni digitali innovative. Specializzato in Flutter, JavaScript e sviluppo mobile.",
+    "getInTouch": "Mettiti in contatto",
+    "viewProjects": "Visualizza progetti"
+  },
+  "about": {
+    "title": "Chi sono",
+    "subtitle": "Neolaureato con passione per l'innovazione e impegno per l'eccellenza tecnica",
+    "education": "Istruzione",
+    "additionalTraining": "Formazione aggiuntiva",
+    "bachelorDegree": "Laurea in Informatica Applicata",
+    "university": "Palestine Technical University – Kadoorie (PTUK)",
+    "trainingDetails": "Corso PHP • Python AI/ML • Corsi online multipli",
+    "careerAspiration": "Aspirazione professionale",
+    "aspirationText": "Diventare un programmatore competente, fornendo applicazioni di alta qualità e soluzioni creative che combinano eccellenza tecnica con design centrato sull'utente.",
+    "description1": "Neolaureato in Informatica Applicata con una solida base nei linguaggi di programmazione e concetti software.",
+    "description2": "Sono appassionato di programmazione mobile e sviluppo di giochi, con focus su applicazioni user-friendly e soluzioni digitali innovative.",
+    "description3": "Entusiasta dell'apprendimento permanente e di rimanere all'avanguardia degli sviluppi tecnologici, cercando di contribuire a team innovativi e fare un impatto significativo nell'industria tech.",
+    "softSkills": {
+      "problemSolver": "Risolutore di problemi",
+      "fastLearner": "Apprendimento veloce",
+      "teamPlayer": "Giocatore di squadra",
+      "creativeThinker": "Pensatore creativo",
+      "detailOriented": "Attento ai dettagli",
+      "adaptable": "Adattabile",
+      "curious": "Curioso",
+      "motivated": "Motivato",
+      "analytical": "Analitico",
+      "resilient": "Resiliente",
+      "openMinded": "Mente aperta",
+      "goalDriven": "Orientato agli obiettivi"
+    }
+  },
+  "skills": {
+    "title": "Competenze & Expertise",
+    "subtitle": "Una panoramica completa delle mie competenze tecniche e capacità",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "mobile": "Mobile",
+    "tools": "Strumenti & Altri",
+    "softSkillsTitle": "Soft Skills",
+    "languagesTitle": "Lingue",
+    "nativeLevel": "Nativo",
+    "fluentLevel": "Fluente",
+    "intermediateLevel": "Intermedio",
+    "basicLevel": "Base"
+  },
+  "contact": {
+    "title": "Connettiamoci",
+    "subtitle": "Pronto a collaborare o discutere opportunità? Mi piacerebbe sentirti",
+    "getInTouch": "Mettiti in contatto",
+    "quickActions": "Azioni rapide",
+    "lookingFor": "Cerco opportunità in:",
+    "frontendDev": "Sviluppo Frontend",
+    "mobileDev": "Sviluppo App Mobile", 
+    "fullStackDev": "Sviluppo Full-Stack",
+    "gameDev": "Sviluppo Giochi",
+    "sendMessage": "Invia messaggio",
+    "responseTime": "Tempo di risposta: Di solito entro 24 ore",
+    "socialLinks": "Trova tutti i miei link social e progetti in un posto",
+    "visitLinktree": "Visita il mio Linktree",
+    "email": "Email",
+    "phone": "Telefono", 
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }
+}
