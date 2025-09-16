@@ -40,3 +40,120 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Custom skill card styles */
+.card-skill {
+  overflow: visible;
+  width: 250px; /* Adjusted width */
+  height: 250px; /* Adjusted height */
+  perspective: 1000px; /* Added for 3D effect */
+}
+
+.content-skill {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms;
+  box-shadow: 0px 0px 10px 1px #000000ee;
+  border-radius: 5px;
+}
+
+.front-skill, .back-skill {
+  background-color: hsl(var(--card)); /* Dark navy from description */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex; /* Added to center content */
+  flex-direction: column; /* Added for content arrangement */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 10px; /* Add some padding */
+  color: white; /* Default text color */
+}
+
+.back-skill {
+  transform: rotateY(180deg); /* Front is usually the initial view, so back is rotated initially */
+}
+
+.back-skill::before {
+  position: absolute;
+  content: ' ';
+  display: block;
+  width: 160px;
+  height: 160%;
+  background: linear-gradient(90deg, transparent, #00BFFF, #00BFFF, #00BFFF, #00BFFF, transparent); /* Deep Sky Blue */
+  animation: rotation_481 5000ms infinite linear;
+}
+
+.back-content-skill {
+  position: absolute;
+  width: 99%;
+  height: 99%;
+  background-color: hsl(var(--card)); /* Dark navy from description */
+  border-radius: 5px;
+  color: #00BFFF; /* Deep Sky Blue for text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Adjusted gap */
+  text-align: center; /* Center text */
+  z-index: 1; /* Ensure content is above the gradient */
+}
+
+.card-skill:hover .content-skill {
+  transform: rotateY(180deg);
+}
+
+@keyframes rotation_481 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.front-content-skill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Changed to center for title and list */
+  align-items: center; /* Center content horizontally */
+  text-align: center;
+  gap: 10px; /* Added gap */
+}
+
+.front-content-skill .title-skill {
+  font-size: 1.2em; /* Adjusted font size */
+  font-weight: bold;
+  color: #00BFFF; /* Deep Sky Blue for titles */
+  margin-bottom: 10px;
+}
+
+.front-content-skill .skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 0.9em;
+}
+
+.front-content-skill .skills-list li {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: hsl(var(--muted-foreground));
+}
+
+.front-content-skill .skills-list li svg {
+  color: #00BFFF; /* Deep Sky Blue for skill icons */
+}
