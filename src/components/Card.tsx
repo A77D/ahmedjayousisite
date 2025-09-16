@@ -8,38 +8,28 @@ interface CardProps {
   color: string;
 }
 
-const Card: FC<CardProps> = ({ title, icon, skills, color }) => {
+const Card: FC<CardProps> = ({ title, icon, skills }) => {
   return (
     <div className="card">
       <div className="content">
-        <div className="back">
-          <div className="back-content">
+        <div className="front">
+          <div className="front-content" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%', textAlign: 'center', padding: '1rem' }}>
             {icon}
-            <strong>{title}</strong>
+            <strong style={{ marginTop: '1rem' }}>{title}</strong>
           </div>
         </div>
-        <div className="front">
-          <div className="img">
-            <div className="circle"></div>
-            <div className="circle" id="right"></div>
-            <div className="circle" id="bottom"></div>
-          </div>
-          <div className="front-content">
-            <small className="badge">{title}</small>
-            <div className="description">
-              <div className="title">
-                <p className="title">
-                  <strong>{title}</strong>
-                </p>
-              </div>
-              <p className="card-footer">
+        <div className="back">
+          <div className="back-content" style={{ padding: '1.5rem' }}>
+            <p className="title" style={{ fontWeight: 'bold', marginBottom: '1rem', textAlign: 'center' }}>
+                <strong>{title}</strong>
+            </p>
+            <div className="skills-list">
                 {skills.map((skill, index) => (
-                  <span key={index}>
-                    {skill}
-                    {index < skills.length - 1 && " | "}
-                  </span>
+                <div key={index} className="skill-item" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem' }}>
+                    <span style={{ color: 'hsl(var(--primary))', fontWeight: 'bold' }}>&gt;</span>
+                    <span>{skill}</span>
+                </div>
                 ))}
-              </p>
             </div>
           </div>
         </div>
