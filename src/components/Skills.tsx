@@ -1,13 +1,15 @@
-import Card from "@/components/Card";
+import { Card } from "@/components/ui/card";
 import { 
+  Code, 
+  Smartphone,
   Globe,
   Database,
-  Smartphone,
   Wrench,
-  Users,
   MessageCircle,
+  Users,
   Lightbulb,
   Zap,
+  Languages,
   Palette,
   Eye,
   Target,
@@ -15,10 +17,9 @@ import {
   TrendingUp,
   BarChart3,
   Shield,
-  Languages
+  Heart
 } from "lucide-react";
 import { useTranslation } from 'react-i18next';
-import "./Skills.css";
 
 const Skills = () => {
   const { t } = useTranslation();
@@ -86,13 +87,28 @@ const Skills = () => {
         {/* Technical Skills */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {skillCategories.map((category, index) => (
-            <Card key={index} {...category} />
+            <Card key={index} className="p-6 bg-gradient-card border border-card-border shadow-card hover:shadow-glow transition-all duration-300 group">
+              <div className={`w-12 h-12 bg-${category.color}/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
+                <div className={`text-${category.color}`}>
+                  {category.icon}
+                </div>
+              </div>
+              <h3 className="font-semibold text-lg mb-3">{category.title}</h3>
+              <div className="space-y-2">
+                {category.skills.map((skill, skillIndex) => (
+                  <div key={skillIndex} className="flex items-center gap-2">
+                    <Code className="w-3 h-3 text-primary" />
+                    <span className="text-sm text-muted-foreground">{skill}</span>
+                  </div>
+                ))}
+              </div>
+            </Card>
           ))}
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
           {/* Soft Skills */}
-          <div className="p-6 bg-gradient-card border border-card-border shadow-card">
+          <Card className="p-6 bg-gradient-card border border-card-border shadow-card">
             <h3 className="font-semibold text-xl mb-6 flex items-center gap-2">
               <Users className="w-6 h-6 text-primary" />
               Soft Skills
@@ -107,10 +123,10 @@ const Skills = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </Card>
 
           {/* Languages */}
-          <div className="p-6 bg-gradient-card border border-card-border shadow-card">
+          <Card className="p-6 bg-gradient-card border border-card-border shadow-card">
             <h3 className="font-semibold text-xl mb-6 flex items-center gap-2">
               <Languages className="w-6 h-6 text-accent" />
               Languages
@@ -131,7 +147,7 @@ const Skills = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </Card>
         </div>
       </div>
     </section>
