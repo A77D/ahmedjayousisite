@@ -28,25 +28,25 @@ const Skills = () => {
     {
       title: "Frontend Development",
       icon: <Globe className="w-6 h-6" />,
-      skills: ["HTML", "CSS", "JavaScript", "Flutter", "Responsive Design"],
+      skills: ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "Responsive Design", "UI/UX Fundamentals"],
       color: "primary"
     },
     {
       title: "Backend & Programming",
       icon: <Database className="w-6 h-6" />,
-      skills: ["PHP", "Java", "Python", "Laravel", "C++", "C#"],
+      skills: ["PHP", "Python (ML basics)", "C#", "MySQL"],
       color: "accent"
     },
     {
       title: "Mobile Development",
       icon: <Smartphone className="w-6 h-6" />,
-      skills: ["Flutter (Dart)", "Android Studio (Java)", "Cross-Platform Apps"],
+      skills: ["Flutter (Dart)", "Cross-Platform Apps"],
       color: "success"
     },
     {
-      title: "Tools & Technologies",
+      title: "Tools & Platforms",
       icon: <Wrench className="w-6 h-6" />,
-      skills: ["Git", "Cisco Packet Tracer", "MS Office", "Ethernet Wiring"],
+      skills: ["Git", "GitHub", "Visual Studio", "VS Code", "MySQL"],
       color: "warning"
     }
   ];
@@ -68,8 +68,8 @@ const Skills = () => {
 
   const languages = [
     { name: "Arabic", level: "Native", progress: 100 },
-    { name: "English", level: "Advanced", progress: 85 },
-    { name: "German", level: "Beginner", progress: 25 }
+    { name: "English", level: "Fluent", progress: 90 },
+    { name: "German", level: "Beginner (A1)", progress: 20 }
   ];
 
   return (
