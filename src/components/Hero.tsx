@@ -53,7 +53,14 @@ const Hero = () => {
               <ExternalLink className="w-4 h-4 mr-2 group-hover:rotate-45 transition-transform" />
               {t('hero.getInTouch')}
             </Button>
-            <Button variant="outline-hero" size="lg" className="group">
+            <Button 
+              variant="outline-hero" 
+              size="lg" 
+              className="group"
+              onClick={() => {
+                document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               <ExternalLink className="w-4 h-4 mr-2 group-hover:rotate-45 transition-transform" />
               {t('hero.viewProjects')}
             </Button>

@@ -28,13 +28,13 @@ const Skills = () => {
     {
       title: "Frontend Development",
       icon: <Globe className="w-6 h-6" />,
-      skills: ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "Responsive Design", "UI/UX Fundamentals"],
+      skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Bootstrap", "Responsive Design", "UI/UX Fundamentals"],
       color: "primary"
     },
     {
       title: "Backend & Programming",
       icon: <Database className="w-6 h-6" />,
-      skills: ["PHP", "Python (ML basics)", "C#", "MySQL"],
+      skills: ["Node.js", "PHP", "Python (ML basics)", "C#", "MySQL", "REST API"],
       color: "accent"
     },
     {
