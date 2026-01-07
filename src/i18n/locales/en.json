@@ -1,6 +1,8 @@
 {
   "nav": {
     "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
     "skills": "Skills", 
     "contact": "Contact"
   },
@@ -8,7 +10,7 @@
     "location": "Tulkarem, Palestine",
     "name": "Ahmed Jayousi",
     "title": "Frontend & Mobile Developer",
-    "description": "Passionate about creating user-friendly applications and innovative digital solutions. Specialized in Flutter, JavaScript, and mobile development.",
+    "description": "Passionate about creating user-friendly applications and innovative digital solutions. Specialized in Flutter, JavaScript, and web development.",
     "getInTouch": "Get In Touch",
     "viewProjects": "View Projects"
   },
@@ -22,9 +24,9 @@
     "trainingDetails": "PHP Course • Python AI/ML • Multiple Online Courses",
     "careerAspiration": "Career Aspiration",
     "aspirationText": "To become a proficient programmer, delivering high-quality applications and creative solutions that combine technical excellence with user-centric design.",
-    "description1": "Recent graduate in Applied Computing with a strong foundation in programming languages and software concepts.",
-    "description2": "I'm passionate about mobile programming and game development, with a focus on user-friendly applications and innovative digital solutions.",
-    "description3": "Enthusiastic about lifelong learning and staying at the forefront of technological advancements, looking to contribute to innovative teams and make a meaningful impact in the tech industry.",
+    "description1": "Recent graduate in Applied Computing with a strong foundation in programming languages and software concepts. Active participant in programming and software development projects.",
+    "description2": "I'm passionate about web and mobile development, with hands-on experience in responsive design, UI/UX fundamentals, and full-stack applications. Participated in Expotech Palestine 2021 & 2022.",
+    "description3": "Enthusiastic about lifelong learning and staying at the forefront of technological advancements. Experienced in team collaboration and Agile development, looking to contribute to innovative teams and make a meaningful impact in the tech industry.",
     "softSkills": {
       "problemSolver": "Problem Solver",
       "fastLearner": "Fast Learner",
@@ -39,6 +41,42 @@
       "openMinded": "Open-Minded",
       "goalDriven": "Goal-Driven"
     }
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "subtitle": "My journey in software development and programming",
+    "softwareDev": "Software Developer",
+    "alrateb": "Alrateb Software Company",
+    "alratebPeriod": "Oct 2025 – Present",
+    "alratebDesc": "Assembling user-friendly applications for clients by upgrading UI components, fixing issues, and adding new features. Gaining hands-on experience with modern development tools, Git workflow, debugging, and requirement analysis. Collaborating with the development team on product lifecycles and high-quality software updates.",
+    "frontendDev": "Frontend Developer & Game/Software Programmer",
+    "freelance": "Freelance & Personal Projects",
+    "freelancePeriod": "Sep 2020 – Present",
+    "freelanceDesc": "Designing and implementing responsive web pages and developing personal and university projects.",
+    "freelanceHighlight1": "Frontend Development: Responsive web pages using HTML, CSS, JavaScript, and React with focus on usability and modern UI design",
+    "freelanceHighlight2": "Project Contributions: AI algorithms (Knight's Tour using BFS/DFS), VHDL structural designs, and mobile-responsive applications",
+    "freelanceHighlight3": "Game Development: Created games like Tic-Tac-Toe, Snake, and other interactive games with complete game logic and UI",
+    "freelanceHighlight4": "Version Control: Used Git/GitHub for project management and effective collaboration",
+    "certifications": "Certifications & Courses",
+    "pythonAI": "Python AI (Machine Learning)",
+    "phpCourse": "PHP Development",
+    "hopeCompany": "The Hope International Company - Online Course"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A showcase of my work and personal projects",
+    "saleek": "Saleek App",
+    "saleekDesc": "Flutter mobile application for the West Bank providing real-time information about road gates. Users can see whether gates are open, congested, or closed with detailed history. Features interactive map with colored markers and collaborative status updates from taxi drivers.",
+    "weddingPlanner": "Wedding Planner Website",
+    "weddingPlannerDesc": "Full-stack website using HTML, CSS, and PHP to help users plan weddings efficiently. Features guest management, budgeting, task tracking, and vendor coordination with an intuitive interface.",
+    "onlineStore": "Jayyousi Online Store",
+    "onlineStoreDesc": "Small online store using HTML, CSS, and JavaScript featuring product listings, responsive design, and user-friendly interface for online customer browsing.",
+    "gpaCalculator": "GPA Calculator",
+    "gpaCalculatorDesc": "Desktop application in C# to help students calculate their GPA for semester or entire academic year with simple interface for inputting grades.",
+    "inDevelopment": "In Development",
+    "graduationProject": "Graduation Project",
+    "moreProjects": "Plus various mini projects including calculators, simulations, and interactive exercises",
+    "viewGithub": "View more on GitHub"
   },
   "skills": {
     "title": "Skills & Expertise",
